@@ -59,32 +59,31 @@ body{
 }
 
 .list-item a{
-  text-decoration: none;
-  color: #ffffff;
-  cursor: pointer;
-  /* border: 2px solid white;
-  border-radius: 26px;
-  padding: 10px 16px; */
+  
 }
 
 
 .list-item{
+    display: block;
     margin-right: 38px;
+    
 }
 
 .list-item:nth-of-type(2){
     margin-right: 0px;
-    
 }
 
 .list-item a{
-    border: 2px solid white 0;
-    border-radius: 26px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    border: 2px solid transparent;
     padding: 10px 16px;
 } 
 
 .list-item a:hover{
-    border: 2px solid white ;
+    border: 2px solid white;
     border-radius: 26px;
     padding: 10px 16px;
 }
