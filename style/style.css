@@ -59,7 +59,10 @@ body{
     margin-bottom: 126px;
 }
 
-
+.block-none{
+    display: block;
+    width: 100%;
+}
 
 .list-item{
     display: block;
@@ -187,6 +190,7 @@ h4{
 }
 
 .partners-button{
+    display: block;
     border: none;
     border: 2px solid #ff4e50;
     background: none;
@@ -194,8 +198,9 @@ h4{
     border-radius: 88px;
     color: #ff4e50;
     font-size: 14px;
-    margin-left: 20px;
+    margin: auto;
     margin-bottom: 40px;
+    
 }
 
 

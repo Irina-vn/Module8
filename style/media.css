@@ -1,4 +1,6 @@
-@media screen and (min-width: 768px){
+
+
+@media (min-width: 768px){
 
     .background{
         background-image: url(../img/background-tablet.jpg);
@@ -50,12 +52,15 @@
     }
 
     .card{
-        margin-right: 50px;
         flex-basis: 220px;
         margin-bottom: 58px;
     }
-    .card:nth-of-type(2n){
-        margin-right: 0px;
+
+    .card:nth-of-type(1){
+        margin-right: 50px;
+    }
+    .card:nth-of-type(4n){
+        margin-right: 50px;
     }
 
     .card-image::after {
@@ -64,15 +69,6 @@
         left: 136px;
     }
 
-    .partner{
-        position: relative;
-    }
-    .partners-button{
-        position: absolute;
-        top: 105%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
 
 }
 
@@ -92,8 +88,8 @@
         max-width: 946px;
     }
 
-    .card{
-        margin-right: 20px;
+    /* .card{
+        margin-right: 0px;
     }
 
     .card:nth-of-type(2n) {
@@ -101,15 +97,27 @@
     }
     .card:nth-of-type(4) {
         margin-right: 0px;
+    } */
+    .card:nth-of-type(1){
+        margin-right: 0px;
+    }
+    .card:nth-of-type(4n){
+        margin-right: 0px;
+    }
+    .card:nth-of-type(2n) {
+        margin-right: 20px;
+    }
+    .card:nth-of-type(1) {
+        margin-right: 20px;
     }
 
-    .partners-button{
-        position: absolute;
-        top: 109%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+
+    
+}
+
+
+@media (min-width: 964px){
+    .block-none{
+        display: none;
     }
-
-
-
 }
